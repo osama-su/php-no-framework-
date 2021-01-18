@@ -1,0 +1,24 @@
+{
+    "name": "osama/php-no-framework",
+        "description": "An example of a modern PHP application bootstrapped without a framework.",
+    "authors": [
+        {
+            "name": "osama-su",
+            "email": "osamaahmed.sus@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+        "php-di/php-di": "^6.0",
+        "relay/relay": "^2.1",
+        "zendframework/zend-diactoros": "^2.2",
+        "middlewares/fast-route": "^2.0",
+        "middlewares/request-handler": "^2.0",
+        "laminas/laminas-diactoros": "^2.2"
+    },
+	"autoload": {
+        "psr-4": {
+            "ExampleApp\\": "src/"
+        }
+    }
+}
